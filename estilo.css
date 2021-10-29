@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(
+        to bottom right,
+        #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+}
+@keyframes movingGradient {
+    from { background-position: 0 0;}
+    to   { background-position: 50% 50% ;}
+}
+div {
+    text-align: center;
+}
+
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em
+}
+h1{
+    text-align: center;
+    font-size: 2em
+}
+h2{
+    font-size: 1.5em
+}
+h1,h2 {
+    color: #fff;
+}
+
+button {
+    height: 2.4em;
+    width: 10em;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.4em
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: #000;
+}
+
+.pause-btn {
+    background-color: #000;
+}
+
+.stop-btn {
+    background-color: #000;
+}
